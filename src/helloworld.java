@@ -7,6 +7,14 @@ public class helloworld {
         System.out.println("hello world!");
         System.out.println(des);
 
+        //类调用测试
+        Number Nb=new Number();
+        double yy=Nb.getY();
+        System.out.println(yy);
+        double sum=Nb.add();
+        System.out.println(sum);
+
+
     }
 
 }
